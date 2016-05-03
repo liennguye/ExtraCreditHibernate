@@ -123,7 +123,7 @@ public class MovieApplication {
 			List<Movie> movies1 = movieRepository.searchByName("The Blind Side");
 			for(Movie movieInfo : movies1){
 				System.out.println("Lien test"+ movieInfo.toString());				
-			}/*
+			}
 			//Search by Genre of the movie
 			List<Movie> movies2 = movieRepository.searchByGenre("ACTION");
 			for(Movie movieInfo : movies2){
@@ -135,7 +135,7 @@ public class MovieApplication {
 				System.out.println(movieInfo.toString());				
 			}
 			//Search by Year of the movie
-			List<Movie> movies6 = movieRepository.searchByYear("2014");
+			List<Movie> movies6 = movieRepository.searchByYear("2009");
 			for(Movie movieInfo : movies6){
 				System.out.println(movieInfo.toString());				
 			}
